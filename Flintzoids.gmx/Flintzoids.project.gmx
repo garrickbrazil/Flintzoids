@@ -47,10 +47,10 @@
     <object>objects\obj_car</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_CC</room>
     <room>rooms\rm_Landing_Strip</room>
-    <room>rooms\Beach</room>
     <room>rooms\Pool</room>
+    <room>rooms\rm_CC</room>
+    <room>rooms\Beach</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

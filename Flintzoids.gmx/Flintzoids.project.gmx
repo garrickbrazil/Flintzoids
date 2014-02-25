@@ -42,14 +42,15 @@
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_zombie</object>
+    <object>objects\obj_slowZombie</object>
     <object>objects\obj_HUD</object>
     <object>objects\obj_spawn</object>
     <object>objects\obj_car</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Landing_Strip</room>
-    <room>rooms\Pool</room>
     <room>rooms\rm_CC</room>
+    <room>rooms\Pool</room>
     <room>rooms\Beach</room>
   </rooms>
   <help>

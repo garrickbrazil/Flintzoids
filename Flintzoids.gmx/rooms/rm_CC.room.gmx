@@ -70,9 +70,9 @@
     <instance objName="obj_spawn" x="64" y="64" name="inst_689F9AED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_brick" x="640" y="0" name="inst_DF1526B7" locked="0" code="" scaleX="26" scaleY="1" colour="4278190080" rotation="0"/>
     <instance objName="obj_player" x="96" y="992" name="inst_1D04B92C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="736" y="416" name="inst_4E70751F" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cook" x="736" y="416" name="inst_337C4552" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_HUD" x="96" y="800" name="inst_876B20A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slowZombie" x="608" y="480" name="inst_FF62BA89" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_slowZombie" x="1184" y="448" name="inst_4E70751F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

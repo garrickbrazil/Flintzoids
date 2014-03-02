@@ -31,7 +31,7 @@ fireRate = 10;
 isFiring = false;
 walkingSpeed = 5;
 setSpeed = 0.5;
-
+global.hitpoints = 100;
 randomize();
 </string>
           </argument>
@@ -131,7 +131,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_brick">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -154,53 +154,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_tree">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>move_contact_solid(direction,12);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_ball">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>move_contact_solid(direction,12);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_sand_castle">
+    <event eventtype="4" ename="obj_static">
       <action>
         <libid>1</libid>
         <id>603</id>

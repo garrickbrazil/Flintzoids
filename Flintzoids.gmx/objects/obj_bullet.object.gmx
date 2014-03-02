@@ -31,7 +31,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_brick">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>203</id>

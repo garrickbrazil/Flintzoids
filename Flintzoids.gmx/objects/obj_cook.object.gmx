@@ -29,7 +29,7 @@
 image_index = 0;
 walkingSpeed = 2;
 setSpeed = 1;
-hitPoints = 100;
+hitPoints = 400;
 
 Sname = part_system_create();
 particle1 = part_type_create();
@@ -130,7 +130,7 @@ hitPoints -= 50;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_brick">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>603</id>

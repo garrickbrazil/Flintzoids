@@ -50,12 +50,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="192" y="288" name="inst_2DA2C0D9" locked="0" code="" scaleX="1.24615001678467" scaleY="1.14063000679016" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="832" y="128" name="inst_0C762A37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="1152" y="128" name="inst_06FAFA27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="1056" y="320" name="inst_A8D43A3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="704" y="320" name="inst_EB2CFC99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HUD" x="96" y="96" name="inst_1EABDDEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="288" y="64" name="inst_5B86A9F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="352" y="64" name="inst_D30D1F63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="416" y="64" name="inst_2B80D439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -86,6 +80,10 @@
     <instance objName="obj_car" x="1056" y="416" name="inst_414AB1EC" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="1120" y="416" name="inst_6B376C26" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_car" x="1184" y="416" name="inst_322FB5A6" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="1216" y="192" name="inst_99DF84E3" locked="0" code="" scaleX="0" scaleY="1.77777779102325" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="1216" y="0" name="inst_500C9FE7" locked="0" code="target_x = 75;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="2.72222232818604" scaleY="28" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="64" y="256" name="inst_CDDF49B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HUD" x="128" y="64" name="inst_437F6195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

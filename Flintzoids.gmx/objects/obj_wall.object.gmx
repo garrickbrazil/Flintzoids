@@ -41,6 +41,10 @@ else if(room == Pool){
     sprite_index = spr_brick;
     depth = 0;
 }
+else if(room == rm_Tunnel){
+    sprite_index = spr_brick;
+    depth = 0;
+}
 </string>
           </argument>
         </arguments>

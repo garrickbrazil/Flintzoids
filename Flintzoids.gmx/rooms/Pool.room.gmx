@@ -120,9 +120,10 @@
     <instance objName="obj_exit" x="-550" y="-300" name="inst_02077308" locked="0" code="target_x = 1215;&#xA;target_y = 90;&#xA;target_room = Beach" scaleX="0.888888895511627" scaleY="2.77777767181396" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="-1" y="74" name="inst_70E79C22" locked="0" code="target_x = 1215;&#xA;target_y = 90;&#xA;target_room = Beach" scaleX="0.888888895511627" scaleY="2.77777767181396" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="1" y="423" name="inst_9AEFDFBC" locked="0" code="target_x = 1200;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="0.882352948188782" scaleY="-2.47058820724487" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="226" y="477" name="inst_98211C0E" locked="0" code="target_x = 1200;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="2.61111116409302" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="525" y="475" name="inst_B264F048" locked="0" code="target_x = 1200;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="2.64705872535706" scaleY="1.47058820724487" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="250" y="500" name="inst_98211C0E" locked="0" code="target_x = 1200;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="2.61110997200012" scaleY="1.38889002799988" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="550" y="500" name="inst_B264F048" locked="0" code="target_x = 1200;&#xA;target_y = 960;&#xA;target_room = rm_CC" scaleX="2.64705991744995" scaleY="1.47058999538422" colour="4294967295" rotation="0"/>
     <instance objName="obj_HUD" x="150" y="50" name="inst_95747908" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="200" y="450" name="inst_1648F8F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

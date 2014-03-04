@@ -62,7 +62,7 @@
     <instance objName="obj_spawn" x="1184" y="64" name="inst_2BDD4A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawn" x="704" y="64" name="inst_9B04BCC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawn" x="576" y="64" name="inst_7EDFE94D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="512" y="640" name="inst_29A39306" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn" x="512" y="1408" name="inst_29A39306" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawn" x="736" y="640" name="inst_D5DB7896" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="544" name="inst_BB017C0B" locked="0" code="" scaleX="1" scaleY="21" colour="4278190080" rotation="0"/>
     <instance objName="obj_wall" x="1280" y="544" name="inst_5297AC21" locked="0" code="" scaleX="1" scaleY="21" colour="4278190080" rotation="0"/>
@@ -71,8 +71,9 @@
     <instance objName="obj_wall" x="640" y="0" name="inst_DF1526B7" locked="0" code="" scaleX="26" scaleY="1" colour="4278190080" rotation="0"/>
     <instance objName="obj_boss" x="736" y="416" name="inst_337C4552" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_HUD" x="96" y="800" name="inst_876B20A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="31" y="998" name="inst_DB40D709" locked="0" code="target_x = 1180;&#xA;target_y = 220;&#xA;target_room = rm_Landing_Strip" scaleX="5.11111116409302" scaleY="1.33333337306976" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="1150" y="999" name="inst_C9962097" locked="0" code="target_x = 60;&#xA;target_y = 400;&#xA;target_room = Pool" scaleX="5.16666650772095" scaleY="1.27777779102325" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="96" y="1024" name="inst_DB40D709" locked="0" code="target_x = 1800;&#xA;target_y = 125;&#xA;target_room = rm_Tunnel;&#xA;" scaleX="5.1111102104187" scaleY="1.33333003520966" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="1184" y="1024" name="inst_C9962097" locked="0" code="target_x = 60;&#xA;target_y = 400;&#xA;target_room = Pool" scaleX="5.16666984558105" scaleY="1.27778005599976" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="-352" y="1120" name="inst_4B05778F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

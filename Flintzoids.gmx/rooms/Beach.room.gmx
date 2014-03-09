@@ -127,6 +127,7 @@
     <instance objName="obj_static" x="1024" y="608" name="inst_3B8D85A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_static" x="1056" y="1056" name="inst_75E57381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_static" x="576" y="416" name="inst_C5BCCD58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bulldog" x="128" y="96" name="inst_E122D348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -51,6 +51,29 @@ part_type_life(particle1,10,20);
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.player_text = "";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -75,6 +98,16 @@ mp_potential_step(obj_player.x,obj_player.y,walkingSpeed,false);
 if(hitPoints &lt;= 0)
 {
     instance_destroy();
+    global.zombieCount = global.zombieCount +1;
+    if(global.zombieCount == 1){
+        global.player_text="Ahhhh!";
+    }
+    if(global.zombieCount == 2){
+        global.player_text="There is a zombie outbreak# at Kettering University!"
+    }
+    if(global.zombieCount == 3){
+        global.player_text="I must rid the school of#this zombie filth."
+    }
 }
 
 </string>

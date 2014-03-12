@@ -33,6 +33,37 @@ walkingSpeed = 5;
 setSpeed = 0.5;
 global.hitpoints = 100;
 randomize();
+global.player_text="Time for class!"
+alarm[1] =30 * 3;
+global.screen_text="";
+global.screen_text_x=100;
+global.screen_text_y=100;
+global.screen_text = "";
+global.zombieCount = 0;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.player_text = ""
 </string>
           </argument>
         </arguments>
@@ -82,6 +113,10 @@ randomize();
 direction = point_direction(x,y,mouse_x,mouse_y);
 
 friction = .5;
+if(global.zombieCount == 3){
+    global.zombieCount = 4;
+    alarm[1] = 30 * 5;
+}
 
 if(keyboard_check(ord("W"))) 
 { 
@@ -206,6 +241,36 @@ else
     alarm[0] = fireRate;
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+
+if(!(global.player_text == "")){  
+    draw_text(x,y - 64,global.player_text);
+}
+if(!(global.screen_text == "")){
+    draw_text(global.screen_text_x,global.screen_text_y, global.screen_text);
+}
 </string>
           </argument>
         </arguments>

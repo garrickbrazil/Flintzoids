@@ -71,10 +71,10 @@
     <instance objName="obj_boss" x="736" y="416" name="inst_337C4552" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_HUD" x="96" y="800" name="inst_876B20A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="96" y="1024" name="inst_DB40D709" locked="0" code="target_x = 1800;&#xA;target_y = 125;&#xA;target_room = rm_Tunnel;&#xA;" scaleX="5.1111102104187" scaleY="1.33333003520966" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="1184" y="1024" name="inst_C9962097" locked="0" code="target_x = 1450;&#xA;target_y = 1450;&#xA;target_room = Pool" scaleX="5.16666984558105" scaleY="1.27778005599976" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="1123" y="1014" name="inst_C9962097" locked="0" code="target_x = 1450;&#xA;target_y = 1450;&#xA;target_room = Pool" scaleX="7.94118022918701" scaleY="1.44444000720978" colour="4294967295" rotation="0"/>
     <instance objName="obj_static" x="1184" y="960" name="inst_62D15D77" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="45"/>
     <instance objName="obj_static" x="1184" y="1024" name="inst_AECB4F19" locked="0" code="" scaleX="1.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_static" x="1216" y="992" name="inst_101C33C9" locked="0" code="" scaleX="1.75" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_static" x="1216" y="989" name="inst_101C33C9" locked="0" code="" scaleX="1.75" scaleY="1" colour="4294967295" rotation="90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -69,7 +69,6 @@
     <instance objName="obj_wall" x="0" y="150" name="inst_486A1A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="100" y="150" name="inst_50BDD737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="50" y="150" name="inst_6628D381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pre_robot" x="1150" y="450" name="inst_F1BEB5DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_static" x="1100" y="450" name="inst_EE5A7D90" locked="0" code="" scaleX="0.745455026626587" scaleY="0.745097994804382" colour="4294967295" rotation="0"/>
     <instance objName="obj_static" x="1200" y="500" name="inst_9B5BFAEE" locked="0" code="" scaleX="0.745455026626587" scaleY="0.745097994804382" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="65" y="25" name="inst_70E79C22" locked="0" code="target_x = 1215;&#xA;target_y = 90;&#xA;target_room = Beach" scaleX="1.17647004127502" scaleY="5.44443988800049" colour="4294967295" rotation="0"/>
@@ -250,6 +249,8 @@
     <instance objName="obj_wall" x="0" y="250" name="inst_4094A4D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="200" name="inst_E0E04698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit" x="1353" y="1479" name="inst_12394CF8" locked="0" code="target_x = 1160;&#xA;target_y = 920;&#xA;target_room = rm_CC" scaleX="10.0588235855103" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_robot" x="1025" y="450" name="inst_62C00119" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1154" y="454" name="inst_5B7F8F08" locked="0" code="sprite_index = spr_shell_robot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

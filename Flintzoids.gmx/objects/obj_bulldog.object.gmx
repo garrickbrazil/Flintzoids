@@ -76,12 +76,12 @@
           <argument>
             <kind>1</kind>
             <string>var right = 1;
-if(right){
+if(right==1){
     right = 0;
-    sprite_index = spr_bulldog_left;
+    image_xscale = -1;//flip sprite
 }else{
     right = 1;
-    sprite_index = spr_bulldog_right;
+    image_xscale = 1;//flip back
 }
 
 

@@ -69,7 +69,7 @@ part_type_life(particle1,10,20);
           <argument>
             <kind>1</kind>
             <string>if (room == rm_CC){
-    unlock = 1
+    global.cc_unlock = true;
 }
 </string>
           </argument>

@@ -70,8 +70,9 @@ else if(room == Pool){
           <argument>
             <kind>1</kind>
             <string>if (room == rm_CC){
-    with(obj_static)
-        instance_destroy();
+    if(global.cc_unlock)
+        with(obj_static)
+            instance_destroy();
 }
 </string>
           </argument>

@@ -40,6 +40,7 @@ global.screen_text_x=100;
 global.screen_text_y=100;
 global.screen_text = "";
 global.zombieCount = 0;
+global.cc_unlock=false;
 
 </string>
           </argument>
@@ -239,6 +240,7 @@ else
     bullet3.direction -= (10 + random(10));
     isFiring = true;
     alarm[0] = fireRate;
+    audio_play_sound(sn_shotgun,1,false);
 }
 
 </string>

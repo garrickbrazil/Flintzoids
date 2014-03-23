@@ -176,9 +176,13 @@ if(global.hitpoints&gt;0 &amp;&amp; global.won = false){
         textTimer++;
     }
 }    
-else
+else if(global.hitpoints&lt;=0 &amp;&amp; global.won == false)
 {
     global.screen_text="Dead";
+}
+else if(global.won)
+{
+    global.screen_text="YOU#WIN";
 }
 
 
@@ -296,7 +300,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.hitpoints&gt;0){
+            <string>if(global.hitpoints&gt;0 &amp;&amp; global.won==false){
     if(!isFiring)
     {
         bullet1 = instance_create(x,y,obj_bullet);
@@ -338,11 +342,18 @@ if(!(global.player_text == "")){
     draw_text(x,y - 64,global.player_text);
 }
 if(!(global.screen_text == "")){
-    draw_text_transformed_color(
-    view_xview[view_current],
-    view_yview[view_current]+100,
-    global.screen_text,
-    15,15,0,c_maroon,c_maroon,c_red,c_red,1);
+    if(global.won==false)
+    {
+        draw_text_transformed_color(
+        view_xview[view_current],
+        view_yview[view_current]+100,
+        global.screen_text,
+        15,15,0,c_maroon,c_maroon,c_red,c_red,1);
+    }
+    else
+    {
+        draw_text_transformed_color(view_xview[view_current]+100, view_yview[view_current]+100,global.screen_text,10,10,0,c_blue,c_blue,c_blue,c_blue,1);
+    }
 }
 </string>
           </argument>

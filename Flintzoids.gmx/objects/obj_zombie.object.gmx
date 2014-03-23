@@ -110,6 +110,10 @@ if(hitPoints &lt;= 0)
     }
 }
 
+if(global.won)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

@@ -130,7 +130,7 @@ if(hitPoints &lt;= 0)
             <kind>1</kind>
             <string>part_particles_create(Sname,x,y,particle1,60);
 with(other) instance_destroy();
-hitPoints -= 50;
+hitPoints -= 20;
 </string>
           </argument>
         </arguments>

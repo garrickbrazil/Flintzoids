@@ -9,7 +9,7 @@
   <speed>30</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
-  <showcolour>-1</showcolour>
+  <showcolour>0</showcolour>
   <code></code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -30,7 +30,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="bg_cement" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_concrete" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="bg_mist_intense" x="0" y="0" htiled="-1" vtiled="-1" hspeed="2" vspeed="1" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,9 +50,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_exit" x="0" y="160" name="inst_481F472E" locked="0" code="target_x = 1020;&#xA;target_y = 224;&#xA;target_room = rm_Landing_Strip;&#xA;" scaleX="1.77777779102325" scaleY="5.64705896377563" colour="4278190208" rotation="0"/>
-    <instance objName="obj_exit" x="1984" y="192" name="inst_8DA5E368" locked="0" code="target_x = 75;&#xA;target_y = 960;&#xA;target_room = rm_CC&#xA;" scaleX="1.77778005599976" scaleY="5.64705896377563" colour="4286595072" rotation="0"/>
-    <instance objName="obj_wall" x="0" y="64" name="inst_CC54AC88" locked="0" code="" scaleX="1" scaleY="4" colour="4278190080" rotation="0"/>
+    <instance objName="obj_exit" x="0" y="128" name="inst_481F472E" locked="0" code="target_x = 1020;&#xA;target_y = 224;&#xA;target_room = rm_Landing_Strip;&#xA;" scaleX="1.77777779102325" scaleY="7.11111116409302" colour="4286595072" rotation="0"/>
+    <instance objName="obj_exit" x="2016" y="192" name="inst_8DA5E368" locked="0" code="target_x = 75;&#xA;target_y = 960;&#xA;target_room = rm_CC&#xA;" scaleX="-2.76470589637756" scaleY="7.11111116409302" colour="4278190208" rotation="0"/>
+    <instance objName="obj_wall" x="0" y="32" name="inst_CC54AC88" locked="0" code="" scaleX="1" scaleY="4" colour="4278190080" rotation="0"/>
     <instance objName="obj_boss" x="1824" y="160" name="inst_F9CF99FB" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="384" name="inst_55EDE56A" locked="0" code="" scaleX="1" scaleY="5" colour="4278190080" rotation="0"/>
     <instance objName="obj_zombie" x="1024" y="224" name="inst_0B26137A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -66,7 +66,7 @@
     <instance objName="obj_zombie" x="1344" y="352" name="inst_4B2E6D66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="992" y="0" name="inst_D1D3DCCA" locked="0" code="" scaleX="41" scaleY="1" colour="4278190080" rotation="0"/>
     <instance objName="obj_wall" x="992" y="480" name="inst_0DEC4E16" locked="0" code="" scaleX="41" scaleY="1" colour="4278190080" rotation="0"/>
-    <instance objName="obj_wall" x="1984" y="384" name="inst_B5D0B992" locked="0" code="" scaleX="1" scaleY="4" colour="4278190080" rotation="0"/>
+    <instance objName="obj_wall" x="1984" y="416" name="inst_B5D0B992" locked="0" code="" scaleX="1" scaleY="4" colour="4278190080" rotation="0"/>
     <instance objName="obj_wall" x="1984" y="96" name="inst_EB01F5E6" locked="0" code="" scaleX="1" scaleY="4" colour="4278190080" rotation="0"/>
     <instance objName="obj_HUD" x="64" y="64" name="inst_437F6195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

@@ -19,6 +19,6 @@
   <width>300</width>
   <height>183</height>
   <frames>
-    <frame index="0">images\sprite18_0.png</frame>
+    <frame index="0">images\spr_table_0.png</frame>
   </frames>
 </sprite>

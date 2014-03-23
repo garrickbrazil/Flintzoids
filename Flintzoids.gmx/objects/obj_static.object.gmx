@@ -43,9 +43,7 @@ if(room == Beach){
 else if(room == Pool){
     sprite_index = spr_bench;
 
-} //else if (room == rm_CC){
-    //sprite_index == spr_door;
-//}
+} 
 
 </string>
           </argument>

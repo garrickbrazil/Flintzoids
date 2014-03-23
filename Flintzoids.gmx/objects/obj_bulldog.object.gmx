@@ -140,6 +140,23 @@ hitPoints -= 50;
           <argument>
             <kind>1</kind>
             <string>global.hitpoints-=5;
+
+if (global.hitpoints &gt; 0 &amp;&amp; !audio_is_playing(sn_scream) &amp;&amp; !audio_is_playing(sn_scream2) &amp;&amp; !audio_is_playing(sn_scream3) &amp;&amp; !audio_is_playing(sn_scream4)){
+    sound = floor(random(4));
+    
+    if(sound == 0){
+        audio_play_sound(sn_scream,1,false);    
+    }    
+    else if(sound == 1){
+        audio_play_sound(sn_scream2,1,false);
+    }
+    else if(sound == 2){
+        audio_play_sound(sn_scream3,1,false);
+    }
+    else if (sound == 3){
+        audio_play_sound(sn_scream4,1,false);
+    }
+}
 </string>
           </argument>
         </arguments>

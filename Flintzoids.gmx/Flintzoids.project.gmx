@@ -6,6 +6,10 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sn_shotgun</sound>
+    <sound>sound\sn_scream</sound>
+    <sound>sound\sn_scream2</sound>
+    <sound>sound\sn_scream3</sound>
+    <sound>sound\sn_scream4</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_ball</sprite>

@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>spawnRate = 90 + random(60);
-alarm[0] = spawnRate;
+if((room == rm_CC &amp;&amp; instance_exists(obj_boss)) || (room == Pool &amp;&amp; instance_exists(obj_robot)) || (room == Beach &amp;&amp; instance_exists(obj_bulldog))){
+    alarm[0] = spawnRate;
+}
 </string>
           </argument>
         </arguments>
@@ -50,7 +52,9 @@ alarm[0] = spawnRate;
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,obj_zombie);
-alarm[0] = spawnRate + random(60);
+if((room == rm_CC &amp;&amp; instance_exists(obj_boss)) || (room == Pool &amp;&amp; instance_exists(obj_robot)) || (room == Beach &amp;&amp; instance_exists(obj_bulldog))){
+    alarm[0] = spawnRate + random(60);
+}
 </string>
           </argument>
         </arguments>

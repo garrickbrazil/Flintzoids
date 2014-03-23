@@ -70,7 +70,11 @@ part_type_life(particle1,10,20);
             <kind>1</kind>
             <string>if (room == rm_CC){
     global.cc_unlock = true;
+    global.player_text = "That should solve the problem!#Time to go oustide#and relax.";
 }
+
+
+
 </string>
           </argument>
         </arguments>

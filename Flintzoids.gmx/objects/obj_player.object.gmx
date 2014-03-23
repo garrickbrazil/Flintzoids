@@ -32,8 +32,14 @@ isFiring = false;
 walkingSpeed = 5;
 setSpeed = 0.5;
 global.hitpoints = 100;
+global.won = false;
 randomize();
 global.player_text="Time for class!"
+tunnelText = false;
+ccText = false;
+poolText = false;
+beachText = false;
+textTimer = 0;
 alarm[1] =30 * 3;
 global.screen_text="";
 global.screen_text_x=100;
@@ -119,7 +125,7 @@ if(global.zombieCount == 3){
     alarm[1] = 30 * 5;
 }
 
-if(global.hitpoints&gt;0){
+if(global.hitpoints&gt;0 &amp;&amp; global.won = false){
     if(keyboard_check(ord("W"))) 
     { 
         speed = walkingSpeed; 
@@ -138,9 +144,42 @@ if(global.hitpoints&gt;0){
         image_speed = 0;
         image_index = 0;
     }
-    }else{
-        global.screen_text="Dead";
+    
+    if(room == rm_Tunnel &amp;&amp; tunnelText == false)
+    {
+        global.player_text = "I think the source is#coming from the end#of the tunnel!";
+        tunnelText = true;
     }
+    if(room == rm_CC &amp;&amp; ccText == false)
+    {
+        global.player_text = "I think it's coming#from the kitchen...";
+        ccText = true;
+    }
+    if(room == Pool &amp;&amp; poolText == false)
+    {
+        global.player_text = "Oh no! I guess the#cook wasn't the cause!";
+        poolText = true;
+    }
+    if(room == Beach &amp;&amp; beachText == false)
+    {
+        global.player_text = "It looks like the cause#is the bulldog biting everyone#and it has rabies!?!";
+        beachText = true;
+    }
+    
+    if(textTimer &gt;= 150)
+    {
+        global.player_text = "";
+        textTimer = 0;
+    }
+    else if(global.player_text != "")
+    {
+        textTimer++;
+    }
+}    
+else
+{
+    global.screen_text="Dead";
+}
 
 
 </string>

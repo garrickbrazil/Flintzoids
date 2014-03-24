@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>showtext = 0;
 if(room == rm_CC){
-    sprite_index = blank;
+    sprite_index = spr_player;
     image_speed = 0;
 }else{
     randomize();
@@ -107,8 +107,8 @@ if(room == rm_CC){
             <string>draw_self();
 
 if(showtext == 1){
-    draw_text(x-80,y-64,
-    "I need to move this.#You go see if anyone#is left in the kitchen.");
+    draw_text(x-100,y-120,
+    "The cook started this.# Go end it and#I will unblock this door.");
 }
 </string>
           </argument>

@@ -152,7 +152,7 @@ if(global.hitpoints&gt;0 &amp;&amp; global.won = false){
     }
     if(room == rm_CC &amp;&amp; ccText == false)
     {
-        global.player_text = "I think it's coming#from the kitchen...";
+        global.player_text = "I need to get out of here!";
         ccText = true;
     }
     if(room == Pool &amp;&amp; poolText == false)

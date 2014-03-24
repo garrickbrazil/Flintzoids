@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>showtext = 0;
 if(room == rm_CC){
-    sprite_index = spr_player;
+    sprite_index = npc;
     image_speed = 0;
 }else{
     randomize();

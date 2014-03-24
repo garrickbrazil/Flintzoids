@@ -68,7 +68,7 @@
     <instance objName="obj_boss" x="640" y="480" name="inst_337C4552" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="90"/>
     <instance objName="obj_exit" x="0" y="1024" name="inst_DB40D709" locked="0" code="target_x = 1800;&#xA;target_y = 125;&#xA;target_room = rm_Tunnel;&#xA;" scaleX="9.41176509857178" scaleY="1.88235294818878" colour="4286595072" rotation="0"/>
     <instance objName="obj_exit" x="1120" y="1024" name="inst_C9962097" locked="0" code="target_x = 150;&#xA;target_y = 1300;&#xA;target_room = Pool" scaleX="8.52941036224365" scaleY="1.77778005599976" colour="4278190208" rotation="0"/>
-    <instance objName="obj_static2" x="128" y="416" name="inst_724C6D0C" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_static2" x="128" y="416" name="inst_724C6D0C" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="90"/>
     <instance objName="obj_static2" x="128" y="320" name="inst_BEE84B7B" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_static2" x="128" y="224" name="inst_5E881161" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_static2" x="128" y="128" name="inst_7913E03F" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
